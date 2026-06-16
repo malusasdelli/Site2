@@ -20,3 +20,19 @@ body {
     background-color: black;
 }
 
+.titulo {
+    text-align: center;
+    color: aliceblue;
+}
+
+nav{
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 30px;
+}
