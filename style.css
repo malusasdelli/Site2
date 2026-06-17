@@ -34,5 +34,44 @@ nav a {
     color: aliceblue;
     padding: 30px;
     font-size: 20px;
-    font-weight: 30px;
+    font-weight: bold;
+
 }
+nav a:hover{
+    color: rgb(39,10,229)
+}
+
+.introducao h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.introducao p {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.viloes {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 40px;
+    font-size: 20px;
+    gap: 5px;
+    background-color: #464544;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.quad {
+    flex: 1;
+    padding: 45px;
+
+    background-color: #9D6A03;
+    border: 5px solid;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
